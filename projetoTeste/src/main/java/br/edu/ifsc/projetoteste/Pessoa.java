@@ -12,6 +12,15 @@ package br.edu.ifsc.projetoteste;
 public class Pessoa {
     private String nome;
     private String cpf;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNome() {
         return nome;
