@@ -11,7 +11,7 @@ package br.edu.ifsc.projetoteste;
  */
 public class Pessoa {
     private String nome;
-    private String cpf;
+    
     private int id;
     private String rg;
 
@@ -39,11 +39,5 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
+    
 }
